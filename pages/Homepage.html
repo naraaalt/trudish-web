@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trudish</title>
+    <script
+      src="https://kit.fontawesome.com/df2047d67d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Croissant One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/homepage.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body class="loaded">
+    <div id="navbar"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Truly Indonesian Kebuli</h1>
+        <p>
+          Nikmati Menu Nasi Kebuli khas Indonesia, Nasi Mandhi yang gurih dan
+          smokey, Nasi Biryani yang pedas & berempah, dimakan dengan Potongan
+          Daging Kambing yang empuk.
+        </p>
+        <button onclick="location.href='#menu'">Lihat Menu</button>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info-container">
+        <div class="image-box">
+          <img
+            src="https://trudishid.com/wp-content/uploads/elementor/thumbs/244557802_936623253936990_3905556804037258836_n-q2izvo7s3kanim8vtuog28e06q1ykstwnp166jq504.jpg"
+            alt="img"
+          />
+        </div>
+
+        <div class="info-text">
+          <h3>Rempah khas Kebuli Betawi & Peranakan Arab</h3>
+          <p>
+            Makanan yang popular di kalangan masyarakat Betawi & peranakan Arab
+            di Indonesia. Olahan beras basmati dengan menggunakan resep khas
+            Nasi Kebuli Betawi, menjadikan Nasi KEBULI salah satu menu favorit
+            pilihan customer Trudish.
+          </p>
+          <a href="#order-section" class="btn">Order Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <div class="icon">
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+        <h3>Fresh Tanpa Frozen</h3>
+        <p>Daging Kambing diolah / dipotong langsung, fresh tanpa frozen.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+        <h3>Rempah Terbaik</h3>
+        <p>
+          Pengolahan daging kambing dengan rempah-rempah terbaik, sehingga
+          dagingnya empuk tanpa prengus.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+        <h3>Beras Basmati Pilihan</h3>
+        <p>
+          Menggunakan beras basmati pilihan, pengolahan dengan rempah-rempah
+          berkualitas.
+        </p>
+      </div>
+    </section>
+
+    <section class="info-2">
+      <div class="info-container-2">
+        <div class="info-text=2">
+          <h3>Fresh Coffee</h3>
+          <p>
+            Trudish COFFEE menyediakan minuman dengan biji kopi pilihan dan
+            selalu fresh karena BREWED to ORDERED.
+          </p>
+          <a href="#order-section" class="btn2">Order Sekarang</a>
+        </div>
+
+        <div class="image-box-2">
+          <img
+            src="https://trudishid.com/wp-content/uploads/elementor/thumbs/280687465_541250980848502_5973169458869594943_n-q2knsjlh4c5iibovi9h07d758imqysr0juy6irqao8.jpg"
+            alt="img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="menu-utama">
+        <h2>Menu Utama</h2>
+        <p>Temukan Menu Spesial Kami</p>
+      </div>
+
+      <div class="tab-buttons">
+        <button class="active" onclick="showMenu('signature')">
+          <i class="fa-solid fa-star-of-life"></i> Trudish Signature
+        </button>
+        <button onclick="showMenu('nusantara')"><i class="fa-solid fa-bell-concierge"></i> Paket Nusantara</button>
+        <button onclick="showMenu('delight')"><i class="fa-solid fa-cookie"></i> Trudish Delight</button>
+        <button onclick="showMenu('drinks')"><i class="fa-solid fa-mug-saucer"></i> Kopi & Minuman</button>
+      </div>
+
+      <!-- Signature Menu -->
+      <div id="signature" class="menu-container active">
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/278151684_398359515465437_1896268388794316516_n-300x300.jpg" alt="Shawarma" />
+          <h3>Nasi Biryani</h3>
+          <p>
+            Nasi biryani dari beras basmati pilihan yang dimasak dengan
+            rempah-rempah yang khas Asia Selatan (India/Pakistan).
+          </p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/277619504_727519808656694_8641880181940190674_n-300x300.jpg" alt="Shawarma" />
+          <h3>Nasi Kebuli</h3>
+          <p>
+            Makanan yang popular di kalangan masyarakat Betawi & peranakan Arab
+            di Indonesia.
+          </p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/276138502_442653894213461_1550886773744758011_n-300x300.jpg" alt="Shawarma" />
+          <h3>Nasi Mandhi</h3>
+          <p>
+            Hidangan tradisional yang dibawa oleh orang Hadrami (dari Hadramaut)
+            ke Indonesia.
+          </p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/279316590_119425637404776_7489337562542885798_n.jpg" alt="Shawarma" />
+          <h3>Nasi Goreng</h3>
+          <p>
+            Tersedia pilihan menu:
+            <ul>
+              <li>Nasi Goreng Kambing</li>
+              <li>Kebuli Kambing</li>
+              <li>Spesial Ayam</li>
+              <li>Kebuli Ayam</li>
+              <li>Ayam Goreng Cabe Ijo</li>
+            </ul>
+          </p>
+          <button>ORDER</button>
+        </div>
+      </div>
+
+      <!-- Nusantara Menu -->
+      <div id="nusantara" class="menu-container">
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/285740855_1439757079828470_8646552762076768086_n-300x300.jpg" alt="Nasi Biryani" />
+          <h3>Nasi Ayam Penyet</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/291724744_440261014674362_9194712587847882773_n.jpg" alt="Nasi Kebuli" />
+          <h3>Nasi Ayam Kremes</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/290376577_329324599402385_3849246555216850373_n-1024x1024.jpg" alt="Nasi Kebuli" />
+          <h3>Nasi Ayam Rempah</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/283346331_692067372094773_690380764555811832_n.jpg" alt="Nasi Kebuli" />
+          <h3>Nasi Ayam Bakar</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/275362559_1556235261417248_8098734582124224378_n-300x300.jpg" alt="Nasi Kebuli" />
+          <h3>Nasi Iga Sapi Bakar</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/256007277_1295280957567559_174210898403364358_n-1-300x300.jpg" alt="Nasi Kebuli" />
+          <h3>Tongseng Betawi</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/256007277_1295280957567559_174210898403364358_n-1-300x300.jpg" alt="Nasi Kebuli" />
+          <h3>Kari Ayam</h3>
+          <p>Menu Indonesia dengan "Sambal Trudish”.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/272757974_383436276879336_8970327389269896452_n.jpg" alt="Nasi Kebuli" />
+          <h3>Indomie Spesial Kari Ayam</h3>
+          <p>Dengan toping kari ayam.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/272757974_383436276879336_8970327389269896452_n.jpg" alt="Nasi Kebuli" />
+          <h3>Indomie Spesial Kari Ayam​</h3>
+          <p>Dengan toping daging kambing berempah.</p>
+          <button>ORDER</button>
+        </div>
+      </div>
+
+      <!-- Delight Menu -->
+      <div id="delight" class="menu-container">
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/277440133_118858627408307_5175719613821578587_n-300x300.jpg" alt="Shawarma" />
+          <h3>Shawarma</h3>
+          <p>Potongan daging ayam/sapi/kambing yang di bungkus dengan roti pita tipis.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/166782978_130327009099794_2875542730462599693_n-300x300.jpg" alt="Chicken Wing" />
+          <h3>Chicken Wing</h3>
+          <p>Roasted Chicken wing yang gurih. Pengolahannya dengan cara di roasted.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/291759807_559111402546900_3129774339337649955_n-300x300.jpg" alt="Roti Gembong" />
+          <h3>Roti Gembong</h3>
+          <p>Roti Jadoel khas Kalimantan Timur.</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/201969386_1130461420797396_5220934094146272826_n.jpg" alt="Pisang Goreng" />
+          <h3>Pisang Goreng</h3>
+          <p>Pisang goreng nugget dengan toping spesial.</p>
+          <button>ORDER</button>
+        </div>
+      </div>
+
+      <!-- Drinks Menu -->
+      <div id="drinks" class="menu-container">
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/241239895_381407930200926_9075255736508801504_n-300x300.jpg" alt="Espresso" />
+          <h3>Espresso</h3>
+          <p>Tersedia: Single, Latte, Cappuccino, Americano, Caramel Machiato</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/280061747_127720329648998_4898849596842797232_n-300x300.jpg" alt="Hot Coffee" />
+          <h3>Hot Coffee</h3>
+          <p>Tersedia: Moccacino, Gula aren latte, Caramel cappuccino, Hazelnut latte</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/280687465_541250980848502_5973169458869594943_n-300x300.jpg" alt="Manual Brew" />
+          <h3>Manual Brew</h3>
+          <p>V60 Single Origin, Vietnam Drip, Tubruk Robusta, Tubruk Arabica</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/275762907_106620045216462_22124000613170959_n.jpg" alt="Cold Coffee" />
+          <h3>Cold Coffee</h3>
+          <p>Affogato, Japanese Ice Coffee</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/221689593_240570637734424_7039266770106693379_n-300x300.jpg" alt="Ice Coffee" />
+          <h3>Ice Coffee</h3>
+          <p>Caramel Machiato, Cappucino, Caramel Cappucino, Hazelnut Latte, Moccachino, Gula Aren Latte, Coffee Latte,
+            Americano, Banana Latte</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/292532717_392596246270647_6279853776881021276_n-300x300.jpg" alt="hot & ice tea" />
+          <h3>Hot & Ice Tea</h3>
+          <p>Lychee Tea, Lemon Tea, Mint Tea, Teh Tarik, Black Tea</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/287723654_521904666332059_118976012737211584_n-300x300.jpg" alt="Mojito" />
+          <h3>Mojito</h3>
+          <p>Strawberry, Lychee, Mint</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/291286578_160615423149997_2842681478649210771_n-1024x1024.jpg" alt="Fresh juice" />
+          <h3>Fresh Juice</h3>
+          <p>Jerus, Alpukat, Strawberry, Melon, Semangka, Naga, Mix</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/260864358_1069184513857036_6063570977797649452_n-300x300.jpg" alt="Milkshake" />
+          <h3>Milkshake</h3>
+          <p>Chocolate, Vanila, Strawberry</p>
+          <button>ORDER</button>
+        </div>
+        <div class="menu-card">
+          <img src="https://trudishid.com/wp-content/uploads/2023/02/292532717_392596246270647_6279853776881021276_n-300x300.jpg" alt="Green Tea & Choco" />
+          <h3>Green Tea & Choco</h3>
+          <p>Ice Green Tea Latte, Ice Choco Banana, Hot/Ice Chocolate</p>
+          <button>ORDER</button>
+        </div>
+      </div>
+    </section>
+
+        <!-- Order Sekarang Section -->
+    <section id="order-section" class="order-section">
+        <h2>Order Sekarang</h2>
+        
+        <div class="order-options">
+            <a href="https://gofood.co.id/en/jakarta/restaurant/trudish-kitchen-coffee-f98d0e5f-00e7-4631-b632-63d646c23d1c" class="order-btn gofood-btn">
+              <img src="/images/gofoodordr.jpg" alt="gofood">
+            </a>
+            <a href="https://food.grab.com/id/id/restaurant/trudish-kitchen-and-coffee-golden-square-bekasi-delivery/6-CZCFG4MJAFJYGT?" class="order-btn grabfood-btn">
+              <img src="/images/grabfood.jpg" alt="grabfood">
+            </a>
+            <a href="https://wa.me/628111691983" class="order-btn whatsapp-btn">
+              <img src="/images/wa.jpg" alt="whatsapp">
+            </a>
+        </div>
+
+        <div class="map-container">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.619121783546!2d107.011539!3d-6.222851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f7ec5feb847%3A0x1be996edbc097463!2sNasi%20Kebuli%20Trudish%20Kitchen%20%26%20Coffee!5e0!3m2!1sen!2sus!4v1758706704189!5m2!1sen!2sus" 
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.body.classList.add('loaded'); 
+      });
+      fetch("../components/navbar.html")
+        .then((res) => res.text())
+        .then((data) => (document.getElementById("navbar").innerHTML = data));
+
+      fetch("../components/footer.html")
+        .then((res) => res.text())
+        .then((data) => (document.getElementById("footer").innerHTML = data));
+
+
+      // menu section redirect
+      const buttons = document.querySelectorAll('.menu-card button');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          document.querySelector('#order-section').scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
