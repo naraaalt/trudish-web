@@ -288,14 +288,17 @@ body.loaded {
 }
 
 .menu-container {
-  display: none;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
+  display: none;       
+  opacity: 0;         
+  transition: opacity 0.8s ease; 
 }
 
 .menu-container.active {
-  display: grid;
+  display: grid;       
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+  opacity: 1;          
 }
 
 .menu-card {
