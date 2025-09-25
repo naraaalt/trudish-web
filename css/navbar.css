@@ -33,3 +33,20 @@ height: 60px;
 .navbar ul li a:hover {
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .navbar img {
+    height: 50px;
+  }
+}

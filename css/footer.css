@@ -90,19 +90,21 @@ body{
   font-size: 14px;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .footer-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 @media (max-width: 600px) {
   .footer-container {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 30px;
   }
+
   .order-logos {
     justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo img {
+    height: 70px;
   }
 }
+
